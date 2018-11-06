@@ -17,7 +17,7 @@ import junit.framework.TestSuite;
 
 
 /*****************************************************************************************************
- * This AllTests ........ perfekt
+ * This AllTests ........ perfekt2.0
  * 
  * @author calproj
  */
