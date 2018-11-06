@@ -17,7 +17,7 @@ import junit.framework.TestSuite;
 
 
 /*****************************************************************************************************
- * This AllTests ....... x
+ * This AllTests ....... xDD
  * 
  * @author calproj
  */
