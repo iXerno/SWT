@@ -1,0 +1,36 @@
+package personal;
+
+import java.util.ArrayList;
+
+public class mitarbeiter {
+
+String name;
+double gehalt;
+String datum;
+int ID;
+static ArrayList<mitarbeiter> Mitarbeiter = new ArrayList<mitarbeiter>();
+
+
+public mitarbeiter() {
+	
+}
+
+public static void add_Mitarbeiter(String a, double b, String c, int d)
+{
+	System.out.print("Test");
+	mitarbeiter newMitarbeiter = new mitarbeiter();
+	newMitarbeiter.name = a;
+	newMitarbeiter.gehalt = b;
+	newMitarbeiter.datum = c;
+	newMitarbeiter.ID = d;
+	Mitarbeiter.add(newMitarbeiter);
+}
+
+
+public double GehaltErhohen (double a, int index)
+{
+	Mitarbeiter.get(index).gehalt = Mitarbeiter.get(index).gehalt + Mitarbeiter.get(index).gehalt *(a/100);
+	return Mitarbeiter.get(index).gehalt;
+}
+
+}
