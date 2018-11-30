@@ -1,0 +1,14 @@
+import personal.mitarbeiter;
+
+public class personalverwaltung {
+	static String a,c;
+	static int d;
+	static double b;
+	
+	public static void main(String[] args) 
+	{
+		
+		mitarbeiter.add_Mitarbeiter(a, b, c, d);
+	}
+
+}
